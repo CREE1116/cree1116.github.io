@@ -1,0 +1,160 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Cree(크리, 이종민)의 프로젝트와 연구, 학회 발표.">
+  <title>Cree · 이종민</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" href="assets/cree.webp" type="image/webp">
+</head>
+<body>
+  <a class="skip-link" href="#main">본문 바로 가기</a>
+  <header class="site-header" id="top">
+    <div class="wrap header-inner">
+      <a class="wordmark" href="#top" lang="en">Cree</a>
+      <nav aria-label="주 메뉴">
+        <a href="#projects">프로젝트</a>
+        <a href="#research">연구</a>
+        <a href="https://github.com/CREE1116">GitHub</a>
+      </nav>
+    </div>
+  </header>
+
+  <main id="main" class="wrap">
+    <section class="intro" aria-label="소개">
+      <div class="intro-copy">
+        <p class="identity">크리 <span>이종민 · 명지대학교</span></p>
+        <h1>추천시스템을 연구하고<br>검색과 학습 도구를 만듭니다.</h1>
+        <div class="links profile-links">
+          <a href="https://github.com/CREE1116">GitHub</a>
+          <a href="https://huggingface.co/lCREEl">Hugging Face</a>
+        </div>
+      </div>
+      <img class="portrait" src="assets/cree.webp" width="640" height="640"
+        alt="검은 하늘 앞에 둥근 안경을 쓰고 눈을 감은 크리 캐릭터 일러스트">
+    </section>
+
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <header class="section-head">
+        <h2 id="projects-title">프로젝트</h2>
+        <p>GitHub 고정 프로젝트</p>
+      </header>
+      <div class="project-grid">
+        <article class="project">
+          <div class="project-copy">
+            <div class="project-heading">
+              <h3 lang="en">OQBoost 2.0</h3>
+              <span>머신러닝</span>
+            </div>
+            <p>두 특성의 선형 결합으로 데이터를 나누는 그래디언트 부스팅 라이브러리입니다. C++ 엔진과 scikit-learn 호환 API를 제공합니다.</p>
+            <div class="links">
+              <a href="https://github.com/CREE1116/oqboost-2.0">소스코드</a>
+              <a href="https://github.com/CREE1116/oqboost-2.0/blob/main/docs/benchmarks.md">벤치마크</a>
+            </div>
+          </div>
+          <figure>
+            <a class="media boundary-media" href="https://github.com/CREE1116/oqboost-2.0/blob/main/docs/images/decision_boundary.png">
+              <img src="assets/oqboost-boundary.webp" width="2015" height="3054"
+                alt="합성 나선 데이터에서 OQBoost, XGBoost, LightGBM의 결정 경계를 비교한 그래프">
+            </a>
+            <figcaption>합성 Spiral 데이터의 결정 경계</figcaption>
+          </figure>
+        </article>
+
+        <article class="project">
+          <div class="project-copy">
+            <div class="project-heading">
+              <h3 lang="en">Weft</h3>
+              <span>로컬 파일 검색</span>
+            </div>
+            <p>파일 이름을 몰라도 내용과 의미로 찾는 macOS 앱입니다. 에이전트도 검색 결과에서 원문의 위치와 문맥을 확인할 수 있습니다.</p>
+            <div class="links">
+              <a href="https://github.com/CREE1116/weft">소스코드</a>
+              <a href="https://github.com/CREE1116/weft/releases/latest">릴리스</a>
+            </div>
+          </div>
+          <figure>
+            <a class="media weft-media" href="https://github.com/CREE1116/weft#검색-흐름-미리보기">
+              <img src="assets/weft.png" width="1280" height="900"
+                alt="Weft에서 청구서 승인으로 검색해 예시 문서의 본문을 미리 보는 화면">
+            </a>
+            <figcaption>예시 문서 검색 화면</figcaption>
+          </figure>
+        </article>
+
+        <article class="project">
+          <div class="project-copy">
+            <div class="project-heading">
+              <h3 lang="en">Lancet</h3>
+              <span>개발 도구</span>
+            </div>
+            <p>코드와 문서를 같은 명령줄 도구에서 찾고 읽을 수 있습니다. 소스 코드의 구문 구조를 기준으로 검색하고 수정할 수 있습니다.</p>
+            <div class="links">
+              <a href="https://github.com/CREE1116/lancet">소스코드</a>
+              <a href="https://github.com/CREE1116/lancet#benchmarks-apple-m4-pro-12-core-24-gb-ram">벤치마크</a>
+            </div>
+          </div>
+        </article>
+
+        <article class="project">
+          <div class="project-copy">
+            <div class="project-heading">
+              <h3 lang="en">Spartady</h3>
+              <span>학습 도구</span>
+            </div>
+            <p>교안과 필기, 강의 음성 전사를 연결합니다. 시험 범위와 남은 시간으로 매일 공부할 개념을 계획하는 데스크톱 앱입니다.</p>
+            <div class="links">
+              <a href="https://github.com/CREE1116/spartady">소스코드</a>
+              <a href="https://github.com/CREE1116/spartady/blob/main/docs/architecture.md">설계 문서</a>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="section" id="research" aria-labelledby="research-title">
+      <header class="section-head">
+        <h2 id="research-title">연구</h2>
+        <p>학회 발표와 공개 모델</p>
+      </header>
+      <div class="research-list">
+        <article class="research-entry">
+          <p class="date"><time datetime="2026-07-03">2026.07.03</time></p>
+          <div>
+            <p class="venue" lang="en">KrAIS Summer Workshop · Session 6</p>
+            <h3 lang="en">On the Necessity and Fundamental Limits of Exposure Bias Correction in Linear Autoencoder-based Recommenders</h3>
+            <p class="byline" lang="en">Jongmin Lee, Iljoo Kim</p>
+            <a href="https://drive.google.com/file/d/1YYMeWxe7VBaqp64eN5QJrHtBg6G59GYv/view">공식 프로그램 8쪽</a>
+          </div>
+        </article>
+        <article class="research-entry">
+          <p class="date"><time datetime="2025-11-08">2025.11.08</time></p>
+          <div>
+            <p class="venue" lang="en">Korean DataBase Conference · DIS Session 3A</p>
+            <h3>CSAR: 공동 지지 어텐션을 이용한 다중관심사 추천 모델</h3>
+            <p class="byline" lang="en">Jongmin Lee, Iljoo Kim</p>
+            <a href="https://www.dbsociety.kr/kdbc/kdbc2025/program.html">공식 프로그램</a>
+          </div>
+        </article>
+        <article class="research-entry">
+          <p class="date">공개 모델</p>
+          <div>
+            <h3 lang="en">PICK-150M</h3>
+            <p class="model-description">선택지별 확률을 계산하는 ModernBERT 기반 의사결정 모델입니다.</p>
+            <a href="https://huggingface.co/lCREEl/pick-150m">모델 카드 및 평가 자료</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap footer-inner">
+      <span><span lang="en">Cree</span> · 이종민</span>
+      <a href="#top">맨 위로</a>
+    </div>
+  </footer>
+</body>
+</html>
